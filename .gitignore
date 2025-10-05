@@ -1,0 +1,18 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Environment variables
+.env
+
+# MySQL dump and backup files
+*.sql.backup
+*.dump
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings 
+.vscode/
+.idea/
