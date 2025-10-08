@@ -1,0 +1,37 @@
+{
+  "name": "attendance-system-backend",
+  "version": "1.0.0",
+  "description": "\"This project is for automation of college-attendance system via face-recognition based attendance\"",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theofficialsunil/attendance-system-backend.git"
+  },
+  "keywords": [
+    "DBMS-PROJECT",
+    "COLLEGE_PROJECT"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theofficialsunil/attendance-system-backend/issues"
+  },
+  "homepage": "https://github.com/theofficialsunil/attendance-system-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
